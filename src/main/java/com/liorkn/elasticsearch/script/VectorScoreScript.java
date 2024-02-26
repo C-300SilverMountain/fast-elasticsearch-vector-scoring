@@ -13,6 +13,9 @@ import org.elasticsearch.search.lookup.SearchLookup;
 
 import com.liorkn.elasticsearch.Util;
 
+/**
+ * https://blog.csdn.net/qq_43692950/article/details/132645864
+ */
 public final class VectorScoreScript extends ScoreScript {
 
     private BinaryDocValues binaryEmbeddingReader;
